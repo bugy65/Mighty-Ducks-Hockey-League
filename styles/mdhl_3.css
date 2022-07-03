@@ -1,0 +1,249 @@
+/* pagina config */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+} */
+
+
+
+/* main */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+ /* body */
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    font-family: 'Montserrat', sans-serif;
+  }
+.underimg {
+    width: 800px;
+    align-self: center;
+}
+
+
+img{
+    width: 800px;
+}
+/* header */
+header{
+    width: 100%;
+    display: flex;
+    height: 40%;
+    justify-content: space-between;
+    background-image: url("../assets/design1_image1.jpg");
+    background-size: cover;
+    background-position-y: 20%;
+    /* align-items: center; */
+
+}
+
+/* nav */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.divnav{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(255, 219, 111) 0%, rgb(233, 120, 55) 90% );
+    /* display: flex;
+    flex-direction: row; */
+    transition: all 0.8s ease 0s;
+    justify-content: center;
+    padding: 20px;
+}
+.item1{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}  
+.item2{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}
+.item3{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}
+.item4{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}
+.item5{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}
+.item6{
+    color: black;
+    background-color: rgb(255, 251, 240);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0rem 1rem;
+}
+.divnav a:hover{
+    color: rgb(255, 208, 119);
+} 
+
+/* main */
+.upcoming_events{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    min-height: 10px;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.logoimg{
+    width: 180px;
+}
+.logoimg1{
+    width: 250px;
+    height: 250;
+}
+.backitem{
+    margin: 10px;
+}
+
+/* header */
+
+
+span{
+    padding-left: 2rem;
+
+}
+#ldap {
+    padding-left: 4rem;
+}
+
+/* estilo de la tabla */
+
+/* general */
+/* table,tr,td{
+    border: 1px solid black; */
+
+/* } */
+/* table{
+    border-collapse: collapse;
+} */
+
+
+/* caption */
+caption{
+    text-decoration: underline;
+}
+
+/* thead */
+
+/* tbody */
+
+tbody{
+    text-align: center;
+
+}
+.Teams{
+    border: none;
+}
+/* tbody tr{
+    background-color: ;
+} */
+
+
+/* tfoot */
+
+/* colgroup */
+
+.datespan{
+    width: 10rem;
+}
+.teamsspan{
+    width: 7rem;
+}
+
+.locationspan{
+    width: 10rem;
+}
+
+#michaelcontact_data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.rules {
+    margin: 2rem;
+}
+
+.divrules{
+    padding: 20px;
+}
+
+
+.container{
+    padding: 30px;
+}
+
+.divtabla{
+
+    padding-block-end: 20px;
+}
+
+/* form */
+
+.forum{
+    display: flex;
+}
+fieldset .ptp{
+    display: flex;
+    flex-direction: column;
+    /* margin: 1rem; */
+}
+
+.form{
+    width: 700px;
+    padding-left: 3rem;
+
+
+}
+
+/* input{
+    width: 300px;
+} */
+.table2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

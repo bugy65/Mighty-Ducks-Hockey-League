@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+<link rel="stylesheet" href="styles/mdhl_3.css">
+<link rel="shortcut icon" href="./assets/favico.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div>
+                
+      <h1 >Mighty Ducks Hockey League</h1>
+  </div>
+  
+  <img class="logoimg1" src="./assets/Logo_Mighty_ducks_01.png" alt="LOGO MIGHTY Ducks">
+  
+  </header>
+  <div class="divnav">
+    <nav>
+        <a class="item1" href="#">Home</a>
+        <a class="item2" href="About_MDHL.html">About</a>
+        <a class="item3" href="Contact.html">Contact</a>
+        <a class="item4" href="rules.html">Rules</a>
+        <a class="item5" href="schedule.html">Game Information</a>
+        <a class="item6" href="registration.html">Registration</a>
+    </nav>
+
+</div>
+
+  <div class="table2">
+    <p align=center>&nbsp;</p>
+    <h1 align=center><font size="+1">The following information has been sent as your
+      feedback:</font></h1>
+      
+      <table border="1" align=center width="226">
+        <tr>
+          <th align="center">Form Field</th>
+          <th align="center">Field Value</th>
+        </tr>
+        
+        <script language="javascript">
+          var args = location.search.substr(1).split('&');
+          for (var i = 0; i < args.length; ++i) {
+            var parts = args[i].split('=');
+            if (parts != null) {
+              var field = parts[0];
+              var value = parts[1];
+              if (value == null) {
+                value = "null"
+              }
+              else {
+                value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+              }
+              
+              document.writeln('<tr><td align="center">' + field + '</td>');
+                document.writeln('<td align="center">' + value + '</td></tr>');
+              }
+    }
+    </script>
+    
+    <noscript>
+      <tr><td>
+        <p>You need to turn on Javascript in your browser.</p>
+        
+        <p>In Microsoft Internet Explorer 4 or greater:</p>
+        <ul>
+          <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+          <li>Click on the "Security" tab.</li>
+          <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+            and then click on "Settings...".)</li>
+            <li>Under "Active scripting" make sure "Enable" is selected.</li>
+          </ul>
+          
+          <p>In Netscape version 4 or greater:</p>
+          <ul>
+            <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+            <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+            <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+            <li>Click the <b>OK</b> button.</li>
+          </ul>
+          
+    </td></tr>
+  </noscript>
+  
+</div>
+
+
+
+</table>
+<div class="backitem">
+  <nav>
+      <a class="item1" href="index.html">back</a>
+  </nav>
+  </div>
+<footer>
+  <p>Mighty Ducks Hockey League | 2022</p>
+</footer>
+</body>
+</html>
+
